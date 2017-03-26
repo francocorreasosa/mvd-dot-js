@@ -1,5 +1,17 @@
+.event {
+  margin-bottom: 70px;  
+}
 .event-name {
   font-family: "Baloo Bhaina", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.event-details {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  border-bottom: 1px #eee solid;
 }
 
 .description {
