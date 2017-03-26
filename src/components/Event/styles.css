@@ -17,3 +17,7 @@
 .description {
   font-family: 'Inconsolata', monospace;
 }
+
+.text-muted {
+  opacity: 0.2;
+}
