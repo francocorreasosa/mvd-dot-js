@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as eventActionCreators from './actions/events';
+import Loading from 'react-loading';
 import Event from './Event';
+import * as eventActionCreators from './actions/events';
 import './App.css';
 
 class App extends Component {
@@ -17,14 +18,21 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h1 className="title">The Montevideo Javascript Meetup Group</h1>
-          <p>This site is still in development :)</p>
         </div>
         <div className="events">
+          {events.loading &&
+            <Loading type="balls"/>
+          }
           {events.data && 
-            events.data.map((status) => (
-              <div className="status">
+            events.data.map((status, i) => (
+              <div className="status" key={i}>
                 <h2>{status.title}</h2>
-                {status.events.map((event) => <Event event={event} />)}
+                {status.events.map((event, i) =>
+                  <Event
+                    event={event}
+                    past={status.title === 'Past'}
+                    key={i}
+                  />)}
               </div>
             ))
           }

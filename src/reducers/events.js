@@ -7,7 +7,7 @@ export default function events(state = initial.events, action) {
       return { ...state, loading: true, error: null };
     case constants.FETCH_EVENTS_FULFILLED: {
       const events = action.payload.map((response, i) => ({
-        events: response.data,
+        events: response.data.reverse(),
         title: i === 0 ? 'Upcoming' : 'Past'
       }));
       return { ...state, loading: false, data: events};

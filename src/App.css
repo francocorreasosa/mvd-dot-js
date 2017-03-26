@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Inconsolata');
 
 .App {
-  max-width: 900px;
+  max-width: 920px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 

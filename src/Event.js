@@ -1,4 +1,5 @@
 import React from 'react';
+import './Event.css';
 
 export default class Event extends React.Component {
   render() {
@@ -6,7 +7,10 @@ export default class Event extends React.Component {
 
     return (
       <div className="event">
-        <h2>{event.name}</h2>
+        <h2 className="event-name">{event.name.split('-')[0]}</h2>
+        <div 
+          dangerouslySetInnerHTML={{ __html: event.description }}
+          className="description"/>
       </div>
     );
   }
