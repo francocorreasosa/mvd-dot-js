@@ -1,0 +1,35 @@
+header { 
+  background-image: url(../../assets/img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 250px;
+}
+
+.overlay {
+  background-color: rgba(0, 139, 188, 0.85);
+  min-height: 250px; 
+  box-shadow: 0 -10px 30px rgba(0,0,0,0.3) inset; 
+}
+
+.meetup-name {
+  margin: 0 !important;
+  padding-top: 85px;
+  font-family: "Baloo Bhaina", "Helvetica Neue", sans-serif;
+  text-shadow: 0 5px 30px rgba(0,0,0,0.4);
+  font-size: 35px !important;
+}
+
+.content {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.content p {
+  font-size: 18px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: 3px;
+  text-shadow: 0 5px 30px rgba(0,0,0,0.4);
+  
+}

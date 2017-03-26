@@ -1,0 +1,48 @@
+
+.propose-talk {
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  background-image: url(../../assets/img/speaker.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 290px;
+}
+
+.propose-talk h1 {
+  padding-top: 70px;
+  font-family: "Baloo Bhaina", "Helvetica Neue", sans-serif;
+  text-shadow: 0 5px 30px rgba(0,0,0,0.6);
+  margin-bottom: 10px;
+}
+
+.propose-talk p {
+  text-shadow: 0 5px 30px rgba(0,0,0,0.6);
+  font-size: 18px;
+  font-family: 'Inconsolata', monospace;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.propose-talk a {
+  color: white;
+  text-decoration: none;
+  border: 1.5px solid white;
+  font-family: 'Inconsolata', monospace;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.2s all ease;
+}
+
+.propose-talk a:hover {
+  background-color: white;
+  color: rgba(0,0,0,0.9);
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.pt-overlay {
+  height: 290px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7) inset;
+}
