@@ -27,7 +27,9 @@ class App extends Component {
             {events.data && 
               events.data.map((status, i) => (
                 <div className="status" key={i}>
-                  <h2 className="status-title">{status.title} meetups</h2>
+                  {status.events.length !== 0 &&
+                    <h2 className="status-title">{status.title} meetups</h2>
+                  }
                   {status.events.map((event, i) =>
                     <Event
                       event={event}
