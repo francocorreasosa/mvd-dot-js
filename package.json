@@ -4,7 +4,6 @@
   "private": true,
   "main": "app.js",
   "scripts": {
-    "prestart": "bower install",
     "start": "nodemon app.js",
     "test": "NODE_ENV=test mocha --recursive test",
     "test:coverage": "nyc npm test",
