@@ -22,7 +22,12 @@ class App extends Component {
         <div className="App">
           <div className="events">
             {events.loading &&
-              <Loading type="balls"/>
+              <Loading type="bars"/>
+            }
+            {events.error &&
+              <div className="error">
+                <p>Oh snap! We had an unexpected error</p>
+              </div>
             }
             {events.data && 
               events.data.map((status, i) => (
