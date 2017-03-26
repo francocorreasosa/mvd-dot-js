@@ -1,0 +1,26 @@
+<% include header %>
+
+<main class="container">
+  <% events.forEach((status) => { %>
+    <h2><%= status.title %> events</h2>
+
+    <% if (status.events.length === 0) { %>
+      <div class="no-events">
+        <h3>There are no <%= status.title.toLowerCase(); %> events yet</h3>
+      </div>
+    <% } else { %>
+      <% status.events.forEach((event) => { %>
+        <div class="event">
+          <h3><%= event.name %> <small>en <%= event.venue.name %></small></h3>
+          <p class="address"><%= event.venue.address_1 %></p>
+
+          <div class="description">
+            <%- event.description %>
+          </div>
+        </div>
+      <% }); %>
+    <% } %>
+  <% }); %>
+</main>
+
+<% include footer %>

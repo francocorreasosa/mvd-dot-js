@@ -1,0 +1,52 @@
+body {
+  font-family: 'Montserrat', 'Avenir Next', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(0,141,191);
+  color: white;
+  min-height: 120px;
+  padding-top: 18px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+header h1 > a {
+  color: white;
+}
+
+header h1 > a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.no-events {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #eee;
+  color: #aaa;
+  padding: 15px;
+  padding-bottom: 25px;
+  border-radius: 3px;
+}
+
+.event {
+  border-bottom: 1px #eee solid;
+  margin-bottom: 35px;
+}
+
+.description {
+  font-family: monospace;
+}
+
+footer {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-family: monospace;
+}
