@@ -12,6 +12,23 @@ a {
   font-family: "Baloo Bhaina", "Helvetica Neue", sans-serif;
 }
 
+.spinner {
+  position: absolute;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  top: 25%;
+  left: 50%;
+}
+
+.spinner-text {
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  left: 44%;
+  top: 28%;
+}
+
 .status-title {
   font-weight: lighter;
   text-transform: uppercase;
