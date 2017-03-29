@@ -52,7 +52,7 @@ class App extends Component {
                 }
               </div>
             </div>
-            <footer>Made by <a href="https://www.twitter.com/francorreasosa">@francorreasosa</a>. Take a look at the <a href="https://github.com/francocorreasosa/mvd-dot-js">source</a>.</footer>
+            <footer>Made by <a href="https://github.com/francocorreasosa/mvd-dot-js/graphs/contributors">these people</a>. Take a look at the <a href="https://github.com/francocorreasosa/mvd-dot-js">source</a>.</footer>
           </div>
         }
       </div>
