@@ -4,9 +4,14 @@
   border-radius: 8px;
   text-align: center;
   background-image: url(../../assets/img/speaker.jpg);
-  background-size: cover;
+  background-size: 1100px;
   background-position: center;
   height: 290px;
+  transition: all 1s ease;
+}
+
+.propose-talk:hover {
+  background-size: 1050px;
 }
 
 .propose-talk h1 {
@@ -45,4 +50,9 @@
   background-color: rgba(0,0,0,0.5);
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.7) inset;
+  transition: all 1s ease;
+}
+
+.pt-overlay:hover {
+  background-color: rgba(0,0,0,0.7);
 }
