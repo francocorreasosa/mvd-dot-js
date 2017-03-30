@@ -21,3 +21,24 @@
 .text-muted {
   opacity: 0.2;
 }
+
+.title > * {
+  display: inline-block;
+}
+
+.rsvp-button {
+  text-decoration: none;
+  border: 2px solid rgba(0, 139, 188, 0.85);
+  border-radius: 3px;
+  padding: 5px 10px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  transition: all 0.1s ease;
+}
+
+.rsvp-button:hover {
+  color: white;
+  background-color: rgba(0, 139, 188, 0.85);
+}
