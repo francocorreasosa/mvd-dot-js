@@ -10,7 +10,7 @@ export default function events(state = initial.events, action) {
         events: response.data.reverse(),
         title: i === 0 ? 'Upcoming' : 'Past'
       }));
-      return { ...state, loading: false, data: events};
+      return { ...state, loading: false, data: events, error: null };
     }
     case constants.FETCH_EVENTS_REJECTED:
       return { ...state, loading: false, error: action.payload };
