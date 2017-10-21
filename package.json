@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://mvd.js.uy/",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.17.0",
     "expect": "^21.0.2",
     "moment": "^2.18.1",
     "react": "^15.4.2",
