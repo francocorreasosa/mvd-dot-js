@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://mvd.js.uy/",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.17.0",
     "expect": "^21.0.2",
     "moment": "^2.18.1",
     "react": "^16.0.0",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.0.0",
     "react-redux": "^5.0.3",
     "react-spinkit": "^2.1.1",
     "redux": "^3.6.0",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.12"
+    "react-scripts": "1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
