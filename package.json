@@ -7,7 +7,7 @@
     "axios": "^0.17.0",
     "expect": "^21.0.2",
     "moment": "^2.18.1",
-    "react": "^15.4.2",
+    "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.3",
     "react-spinkit": "^2.1.1",
