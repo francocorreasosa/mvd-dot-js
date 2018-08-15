@@ -5,7 +5,7 @@
   "homepage": "https://mvd.js.uy/",
   "dependencies": {
     "axios": "^0.17.0",
-    "expect": "^22.0.1",
+    "expect": "^23.5.0",
     "moment": "^2.18.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
